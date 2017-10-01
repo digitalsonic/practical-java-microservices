@@ -18,7 +18,7 @@ public class DataInitializerRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Arrays.asList("Li Lei", "Han Meimei").forEach(x -> {
+        Arrays.asList("LiLei", "HanMeimei").forEach(x -> {
             Order order = Order.builder().customer(x).barista("Master")
                     .createTime(new Date()).modifyTime(new Date()).build();
             orderRepository.save(order);

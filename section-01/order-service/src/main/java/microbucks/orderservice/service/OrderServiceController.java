@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import microbucks.orderservice.model.Order;
 import microbucks.orderservice.repository.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -23,4 +24,8 @@ public class OrderServiceController {
         return orders;
     }
 
+    @RequestMapping("/{id}")
+    public Order getOrderById(@PathVariable Long id) {
+        return orderRepository.findOne(id);
+    }
 }
