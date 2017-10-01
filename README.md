@@ -14,3 +14,11 @@
 4. Spring MVC实现REST接口
 5. Lombok简化代码
 
+## Section 02
+
+在Section 01的基础上，演示了Spring Boot的一些特性：
+
+1. 修改一些常用参数
+2. 替换日志框架spring-boot-starter-log4j2
+3. 用Jetty替换Tomcat
+4. Actuator
