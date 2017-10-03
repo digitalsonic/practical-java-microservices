@@ -28,4 +28,12 @@ public class DataInitializerRunner implements CommandLineRunner {
             log.info("Saving Order[{}] to database.", order);
         });
     }
+
+    public void setOrderRepository(OrderRepository orderRepository) {
+        this.orderRepository = orderRepository;
+    }
+
+    public void setBaristaName(String baristaName) {
+        this.baristaName = baristaName;
+    }
 }

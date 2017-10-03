@@ -28,4 +28,8 @@ public class OrderServiceController {
     public Order getOrderById(@PathVariable Long id) {
         return orderRepository.findOne(id);
     }
+
+    public void setOrderRepository(OrderRepository orderRepository) {
+        this.orderRepository = orderRepository;
+    }
 }
