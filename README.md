@@ -32,3 +32,6 @@
 1. Spring REST Docs
 2. Swagger(SpringFox)
 
+## Section 04
+
+在Section 02的基础上，引入了HAL，使用Spring Data REST演示了简单的HATEOAS。
