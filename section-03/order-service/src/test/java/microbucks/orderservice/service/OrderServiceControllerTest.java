@@ -23,6 +23,7 @@ import static org.mockito.Mockito.when;
 public class OrderServiceControllerTest {
     @Rule
     public MockitoRule rule = MockitoJUnit.rule().strictness(Strictness.STRICT_STUBS);
+
     @Mock
     private OrderRepository orderRepository;
     private OrderServiceController orderServiceController;

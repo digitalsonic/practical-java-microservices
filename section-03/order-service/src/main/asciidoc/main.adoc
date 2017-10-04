@@ -1,0 +1,14 @@
+Document for /orders/
+
+include::{snippets}/index/curl-request.adoc[]
+include::{snippets}/index/http-request.adoc[]
+include::{snippets}/index/http-response.adoc[]
+include::{snippets}/index/httpie-request.adoc[]
+
+Document for /orders/{id}
+
+include::{snippets}/detail/curl-request.adoc[]
+include::{snippets}/detail/path-parameters.adoc[]
+include::{snippets}/detail/http-request.adoc[]
+include::{snippets}/detail/http-response.adoc[]
+include::{snippets}/detail/httpie-request.adoc[]

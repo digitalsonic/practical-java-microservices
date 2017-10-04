@@ -11,6 +11,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 
 @Entity
@@ -19,6 +20,7 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "coffee_orders")
+@XmlRootElement
 public class Order {
     @Id
     @GeneratedValue

@@ -26,3 +26,9 @@
 ## Section 03
 
 在Section 02的基础上，增加了一个客户端，使用`RestTemplate`进行服务调用。
+
+为服务增加了文档说明，使用了以下两种技术：
+
+1. Spring REST Docs
+2. Swagger(SpringFox)
+
