@@ -22,3 +22,7 @@
 2. 替换日志框架spring-boot-starter-log4j2
 3. 用Jetty替换Tomcat
 4. Actuator
+
+## Section 03
+
+在Section 02的基础上，增加了一个客户端，使用`RestTemplate`进行服务调用。
