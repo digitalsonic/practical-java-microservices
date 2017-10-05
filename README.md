@@ -35,3 +35,9 @@
 ## Section 04
 
 在Section 02的基础上，引入了HAL，使用Spring Data REST演示了简单的HATEOAS。
+
+## Section 05
+
+基于Section 01的代码，将服务提供方改为通过Dubbo发布服务。调用方同样使用Dubbo。
+
+需要在本机启动一个Zookeeper，监听2181端口。
