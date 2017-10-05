@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package microbucks.orderservice.service;
+
+import "order_model.proto";
+
+option java_package = "microbucks.orderservice.service";
+option java_outer_classname = "OrderProtoService";
+
+service OrderService {
+    rpc GetAll (GetAllRequest) returns (OrderListResponse);
+    rpc GetOrderById (GetOrderByIdRequest) returns (Order);
+}
+
+message GetAllRequest {
+
+}
+
+message GetOrderByIdRequest {
+    int64 id = 1;
+}
+
+message OrderListResponse {
+    repeated Order orders = 1;
+}

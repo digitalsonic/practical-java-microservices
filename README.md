@@ -41,3 +41,9 @@
 基于Section 01的代码，将服务提供方改为通过Dubbo发布服务。调用方同样使用Dubbo。
 
 需要在本机启动一个Zookeeper，监听2181端口。
+
+## Section 06
+
+与Section 05类似，但不使用Dubbo，改用gRPC来提供服务。
+
+
