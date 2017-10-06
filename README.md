@@ -46,4 +46,6 @@
 
 与Section 05类似，但不使用Dubbo，改用gRPC来提供服务。
 
+## Section 07
 
+完善Section 01的服务端和Section 03的客户端例子。丰富了Order实体的内容与状态。
