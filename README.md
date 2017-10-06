@@ -49,3 +49,7 @@
 ## Section 07
 
 完善Section 01的服务端和Section 03的客户端例子。丰富了Order实体的内容与状态。
+
+## Section 08
+
+在Section 07的基础上，使用Spring Cloud的服务发现和注册机制，使用Eureka作为注册中心，客户端使用Ribbon来做负载均衡。
