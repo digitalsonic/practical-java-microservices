@@ -57,3 +57,7 @@
 ## Section 09
 
 将Section 08的Eureka替换成ZooKeeper和Consul。需要在本地启动ZooKeeper和Consul的服务。
+
+## Section 10
+
+在Section 09的基础上，为customer-service增加了断路器，调整了客户端的实现，通过POST调用触发操作，并演示了DashBoard功能。
