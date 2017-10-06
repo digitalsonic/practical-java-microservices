@@ -53,3 +53,7 @@
 ## Section 08
 
 在Section 07的基础上，使用Spring Cloud的服务发现和注册机制，使用Eureka作为注册中心，客户端使用Ribbon来做负载均衡。
+
+## Section 09
+
+将Section 08的Eureka替换成ZooKeeper和Consul。需要在本地启动ZooKeeper和Consul的服务。
