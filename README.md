@@ -67,3 +67,7 @@
 在Section 09的基础上，将客户端从Ribbon替换为Feign。
 
 注意，服务端的响应码需要>=200。
+
+## Section 12
+
+将Section 09的order-service放到Zuul代理背后，简单演示了ZuulProxy。
