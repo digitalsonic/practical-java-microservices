@@ -61,3 +61,9 @@
 ## Section 10
 
 在Section 09的基础上，为customer-service增加了断路器，调整了客户端的实现，通过POST调用触发操作，并演示了DashBoard功能。
+
+## Section 11
+
+在Section 09的基础上，将客户端从Ribbon替换为Feign。
+
+注意，服务端的响应码需要>=200。
