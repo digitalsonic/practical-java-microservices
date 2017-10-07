@@ -71,3 +71,12 @@
 ## Section 12
 
 将Section 09的order-service放到Zuul代理背后，简单演示了ZuulProxy。
+
+## Section 13
+
+演示了Spring Cloud Config的功能，包含如下内容：
+
+1. 基于Git的配置管理
+2. 通过服务发现找到配置中心
+3. 配置加解密
+
