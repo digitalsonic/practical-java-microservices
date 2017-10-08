@@ -80,3 +80,11 @@
 2. 通过服务发现找到配置中心
 3. 配置加解密
 
+## Section 14
+
+基于Section 08的order-service，增加了Spring Cloud Stream的消息机制。
+
+新增了barista-service，作为咖啡师，通过消息推进订单状态。
+
+需要在本地启动一个RabbitMQ，监听5672端口，默认用户名密码guest/guest。
+
