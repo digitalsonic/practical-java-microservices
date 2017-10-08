@@ -88,3 +88,15 @@
 
 需要在本地启动一个RabbitMQ，监听5672端口，默认用户名密码guest/guest。
 
+## Section 15
+
+通过Spring Cloud Sleuth将Section 14的order-service和barista-service，以及Section 09的customer-service串联起来。
+
+这里用到了：
+
+1. Spring Cloud Sleuth
+2. Spring Cloud Stream
+3. Zipkin Server
+4. Zipkin Web
+
+需要在本地5672启动一个RabbitMQ。
