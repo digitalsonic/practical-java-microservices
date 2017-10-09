@@ -98,5 +98,10 @@
 2. Spring Cloud Stream
 3. Zipkin Server
 4. Zipkin Web
+5. Eureka
 
 需要在本地5672启动一个RabbitMQ。
+
+## Section 16
+
+在Section 15的基础上，增加了OAuth 2.0的客户端模式认证。
