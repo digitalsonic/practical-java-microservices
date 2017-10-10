@@ -1,6 +1,7 @@
 package microbucks.oauthservice;
 
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.oauth2.config.annotation.builders.InMemoryClientDetailsServiceBuilder;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
 import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
@@ -13,8 +14,11 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
     }
 
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-        clients.inMemory()
-                .withClient("customer").secret("customer")
+        InMemoryClientDetailsServiceBuilder builder = clients.inMemory();
+        builder.withClient("customer").secret("customer")
+                .scopes("vip")
+                .authorizedGrantTypes("client_credentials");
+        builder.withClient("order").secret("order")
                 .scopes("vip")
                 .authorizedGrantTypes("client_credentials");
     }

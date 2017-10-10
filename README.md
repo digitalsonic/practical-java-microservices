@@ -105,3 +105,5 @@
 ## Section 16
 
 在Section 15的基础上，增加了OAuth 2.0的客户端模式认证。
+
+这里为了让OAuth相关的RestTemplate也支持LoadBalanced和Trace，做了些额外配置
