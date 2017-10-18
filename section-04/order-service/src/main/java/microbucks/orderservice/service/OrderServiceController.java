@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-//@RestController
-@RequestMapping("/orders")
+@RestController
+@RequestMapping("/my_orders")
 @Slf4j
 public class OrderServiceController {
     @Autowired
